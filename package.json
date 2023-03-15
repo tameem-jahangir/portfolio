@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfolio_tj",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/node": "18.15.3",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "4.9.5"
+    "@heroicons/react": "^2.0.16",
+    "@portabletext/react": "^2.0.2",
+    "@sanity/image-url": "^1.0.2",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "eslint": "8.31.0",
+    "eslint-config-next": "^13.2.4",
+    "framer-motion": "^10.0.1",
+    "install": "^0.13.0",
+    "next": "^13.2.4",
+    "next-sanity": "^4.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
+    "react-icons": "^4.7.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^5.15.0",
+    "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwind-scrollbar": "^2.1.0",
+    "tailwindcss": "^3.2.7"
   }
 }
